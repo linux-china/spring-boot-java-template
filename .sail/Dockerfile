@@ -1,5 +1,6 @@
 FROM codercom/ubuntu-dev-openjdk12
 
-RUN sudo apt-get update && sudo apt-get install maven
+RUN sudo apt-get update && sudo apt-get install maven bash-completion
 
-RUN curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git casey/just --target x86_64-unknown-linux-musl --to /usr/local/bin
+# complete -W '$(just --summary)' just
+RUN curl -LSfs https://japaric.github.io/trust/install.sh | sudo sh -s -- --git casey/just --target x86_64-unknown-linux-musl --to /usr/local/bin
