@@ -1,0 +1,22 @@
+{
+  "name": "spring-boot-java",
+  "repository": "https://github.com/linux-china/spring-boot-java-template",
+  "description": "Spring Boot App Java",
+  "auto_run": "mvn -DskipTests compile",
+  "variables": [
+    {
+      "name": "groupId",
+      "value": "org.mvnsearch",
+      "description": "Maven groupId"
+    },
+    {
+      "name": "artifactId",
+      "value": "spring-boot-demo",
+      "description": "Maven artifactId"
+    }
+  ],
+  "files": [
+    "demo.txt",
+    "pom.xml"
+  ]
+}
