@@ -6,12 +6,10 @@
   "variables": [
     {
       "name": "groupId",
-      "value": "org.mvnsearch",
       "description": "Maven groupId"
     },
     {
       "name": "artifactId",
-      "value": "spring-boot-demo",
       "description": "Maven artifactId"
     }
   ],
