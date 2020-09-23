@@ -11,7 +11,7 @@
     {
       "name": "artifactId",
       "description": "Maven artifactId",
-      "pattern": "demo\d+"
+      "pattern": "demo\\d+"
     }
   ],
   "files": [
