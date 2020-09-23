@@ -10,8 +10,7 @@
     },
     {
       "name": "artifactId",
-      "description": "Maven artifactId",
-      "pattern": "demo\\d+"
+      "description": "Maven artifactId"
     }
   ],
   "files": [
